@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3D3D3"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo_company"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/taglineTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Empower Your Energy Management: Calculate, Control, and Conserve with Precision."
+            android:textSize="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold|italic"
+            android:layout_below="@id/logoImageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/descriptionTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About This Apps"
+            android:textSize="16dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_below="@id/taglineTextView"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/descriptionDetailsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Electricity calculation apps are dedicated tools designed to help users accurately calculate and manage their electricity bills. These apps typically provide a user-friendly interface where individuals can input their electricity consumption data, such as the usage in kilowatt-hours (kWh), and the app then calculates the corresponding cost based on the applicable tariff rates."
+            android:textSize="14dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@id/descriptionTitleTextView"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/developerTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developed by"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_below="@id/descriptionDetailsTextView"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <ImageView
+            android:id="@+id/developerImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/developer"
+            android:layout_below="@id/developerTitleTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/developerDetailsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: Mohamad Asyraf bin Mohamad Nasir\nStudent ID: 2021843668\nProgramme: CS240\nClass: D1CS2405B"
+            android:layout_below="@id/developerImageView"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/linkButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Want to see more? Click here"
+            android:layout_below="@id/developerDetailsTextView"
+            android:layout_marginTop="25dp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/copyrightTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="© 2023 EnerTech Solution Sdn Bhd. All rights reserved."
+            android:textSize="12dp"
+            android:layout_below="@id/linkButton"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>
